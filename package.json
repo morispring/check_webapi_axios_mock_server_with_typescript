@@ -1,0 +1,22 @@
+{
+  "name": "Axios Web API Check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w",
+    "build": "webpack",
+    "serve": "serve ./ -p 3000",
+    "mock:build": "axios-mock-server -b",
+    "mock:watch": "node_modules/.bin/axios-mock-server -w",
+    "mock:config": "node_modules/.bin/axios-mock-server -b -c settings/.mockserverrc"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "axios-mock-server": "^0.19.1",
+    "serve": "^12.0.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

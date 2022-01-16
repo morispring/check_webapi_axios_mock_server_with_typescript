@@ -1,0 +1,10 @@
+.result {
+  position: relative; /* 今の位置を基準 */
+  top: 10px; /* 上から10px */
+  left: 20px; /* 左から20px */
+}
+.http_method {
+  position: relative; /* 今の位置を基準 */
+  top: -10px; /* 上から10px */
+  left: 40px; /* 左から20px */
+}
